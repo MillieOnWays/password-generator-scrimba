@@ -1,0 +1,22 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class = "dark-mode">
+        <div id = "hero-container">
+        <h1>Generate a <br><span>random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        </div>
+        <button id = "btn-el" onclick= "getPassword()">Generate passwords</button>
+        <hr>
+        <div id = "last-el">
+        <div id = "password-el-one" class= "password-container"></div>
+        <div id = "password-el-two" class= "password-container"></div>
+        </div>
+        <button id = "dark-btn" onclick = "toggleDarkMode()">Toggle dark mode</button>
+        <script src="index.js"></script>
+    </body>
+</html>
